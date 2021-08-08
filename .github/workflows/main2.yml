@@ -80,4 +80,4 @@ jobs:
         password2: ${{secrets.unicom_password2}}
         appid: ${{secrets.unicom_appid}}
         notify_sctkey: ${{secrets.NOTIFY_SCKEY}}
-      run: node index.js unicom --user=${user2} --password=${password2} --appid=${appid} 
+      run: node index.js unicom --user=${user2} --password=${password2} --appid=${appid} --tasks dailyBookRead1GFlow,dailygameflow
